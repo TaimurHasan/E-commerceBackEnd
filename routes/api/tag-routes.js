@@ -33,7 +33,14 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then(dbTagData => res.json(dbTagData))
+  .then(dbTagData => {
+    if(!dbTagData) {
+      res.status(404).json({ message: 'There is no tag with that id!'});
+      return;
+    }
+    
+    res.json(dbTagData)
+  })
   .catch(err => {
     console.log(err);
     res.status(400).json(err);
@@ -83,6 +90,25 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
+  Tag.destroy(
+    {
+      where: {
+        id: req.params.id
+      }
+    }
+  )
+  .then(dbDeleteData => {
+    if(!dbDeleteData) {
+      res.status(404).json({ message: "There is no tag with that id!" });
+      return;
+    }
+
+    res.json(dbDeleteData);
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  })
 });
 
 module.exports = router;
