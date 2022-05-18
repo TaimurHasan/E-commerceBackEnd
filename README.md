@@ -2,7 +2,7 @@
 ## Description
 ![E-Commerce Back End](./assets/images/Screenshot%202022-05-17%20213232.png) <br/>
 
-The E-CommerceBackEnd is a codebase, which provides the backend functionality of an E-Commerce website and allows the user to perform RESTful API CRUD (Create, Read, Update, Delete) operations on the platform. In more detail, the code in this repository provides a simple solution to setting up API endpoints to a company's Products, Categories, and Tags stored in a MySQL database. 
+The EcommBackEnd is a codebase, which provides the backend functionality of an E-Commerce website and allows the user to perform RESTful API CRUD (Create, Read, Update, Delete) operations on the platform. In more detail, the code in this repository provides a simple solution to setting up API endpoints to a company's Products, Categories, and Tags stored in a MySQL database. 
 
 <br/>
 
@@ -31,8 +31,8 @@ The E-CommerceBackEnd is a codebase, which provides the backend functionality of
 ## Installation
 To install the application, please follow the steps listed below: 
 1. Download the latest version of node.js on your computer and ensure you have access to a MySQL account. <br/>
-2. Clone this repository on your computer by opening your command-line interface and using git clone and the HTTPS or SSH URL retrieved from this repository's 'Code' dropdown above (e.g.```git clone git@github.com:TaimurHasan/E-CommerceBackEnd.git```). <br/>
-3. Navigate or cd into the cloned directory from the CLI (i.e. ``` cd ./E-CommerceBackEnd ```). <br/>
+2. Clone this repository on your computer by opening your command-line interface and using git clone and the HTTPS or SSH URL retrieved from this repository's 'Code' dropdown above (e.g.```git clone git@github.com:TaimurHasan/EcommBackend.git```). <br/>
+3. Navigate or cd into the cloned directory from the CLI (i.e. ``` cd ./EcommBackend ```). <br/>
 4. Initialize the NPM registry, as it hosts the required packages needed to run this application, using ```npm init -y```. <br/>
 5. Navigate to the '.env.EXAMPLE' file provided in this repository, edit the empty strings for 'DB_USER' and 'DB_PW' to contain your MySQL login information.
 6. Rename the '.env.EXAMPLE' file to '.env' and ensure it is saved
