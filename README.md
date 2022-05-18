@@ -5,7 +5,6 @@
 The E-CommerceBackEnd is a codebase, which provides the backend functionality of an E-Commerce website and allows the user to perform RESTful API CRUD (Create, Read, Update, Delete) operations on the platform. In more detail, the code in this repository provides a simple solution to setting up API endpoints to a company's Products, Categories, and Tags stored in a MySQL database. 
 
 <br/>
-<br/>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
