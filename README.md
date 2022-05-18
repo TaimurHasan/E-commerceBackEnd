@@ -1,11 +1,12 @@
 # E-commerceBackEnd
 ## Description
-![E-Commerce Back End]() <br/>
+![E-Commerce Back End](./assets/images/Screenshot%202022-05-17%20213232.png) <br/>
 
 The E-CommerceBackEnd is a codebase, which provides the backend functionality of an E-Commerce website and allows the user to perform RESTful API CRUD (Create, Read, Update, Delete) operations on the platform. In more detail, the code in this repository provides a simple solution to setting up API endpoints to a company's Products, Categories, and Tags stored in a MySQL database. 
 
 <br/>
 <br/>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Languages and Technologies Used:**
@@ -54,7 +55,7 @@ To use this codebase, it is recommended to use Insomnia to test the API endpoint
 - http://localhost:3001/api/tags
 - http://localhost:3001/api/tags/:id
 
-For POST/PUT routes, please use the following object examples:
+For POST/PUT routes, please use the following object examples: <br/>
 **Categories**
 
 ```
@@ -100,7 +101,7 @@ This project can be contributed to by forking the application. For any contribut
 ## Tests
 
 This project can be tested using Insomnia (recommended) or in a browser. Please follow the steps below: <br/>
-1. Navigate to the [Insomnia]{https://insomnia.rest/} website and follow the download instructions (optional) <br/> 
+1. Navigate to the [Insomnia](https://insomnia.rest/) website and follow the download instructions (optional) <br/> 
 2. Perform RESTful API operations on the endpoints listed in the 'Usage' section above <br/>
 
 <a name="questions"></a>
